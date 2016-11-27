@@ -18,18 +18,18 @@
 
 Then use the directive in your page. 
   
-	&lt;button ng-profile={facebook:YOUR_NAME,twitter:YOUR_NAME,google:YOUR_NAME}&gt; connect &lt;/button&gt;
+	<button ng-profile={facebook:YOUR_NAME,twitter:YOUR_NAME,google:YOUR_NAME}> connect </button>
    
    or
    
-	&lt;button ng-profile={facebook:YOUR_NAME,twitter: YOUR_NAME,google:YOUR_NAME} animation="launchpadReverse" blur="" &gt; connect &lt;/button&gt;
+	<button ng-profile={facebook:YOUR_NAME,twitter: YOUR_NAME,google:YOUR_NAME} animation="launchpadReverse" blur=""> connect </button>
     
-    **optional attributes**
+    optional attributes
     
-    *the animation is for animation the profiles. the default is launchpad reverse* 
+    the animation is for animation the profiles. the default is launchpad reverse 
     // launchpad, launchpadReverse, slideTop, slideDown, slideLeft, slideRight, chain
     
-    *the blur is used to blur the background on show*
+    the blur is used to blur the background on show
 
 **NB: the ng-profile value needs to be an object and not a string containing an object.**
    
@@ -37,11 +37,11 @@ Then use the directive in your page.
 
 Then use the directive in your page. 
   
-	&lt;button ng-share="facebook,twitter,google,pinterest,linkedin"&gt; share &lt;/button&gt;
+	<button ng-share="facebook,twitter,google,pinterest,linkedin"> share </button>
    
    or
    
-	&lt;button ng-share="facebook,twitter,google,pinterest,linkedin" animation="launchpadReverse" blur&gt; share &lt;/button&gt;
+	<button ng-share="facebook,twitter,google,pinterest,linkedin" animation="launchpadReverse" blur> share <button>
     
     optional attributes
     
