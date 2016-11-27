@@ -14,9 +14,9 @@
 	<script src="/js/social.min.js"></script>
 
 
-## use the library to list your profiles.
+## using the library to list your profiles.
 
-Then use the directive in your page. 
+use the directive in your page. 
   
 	<button ng-profile={facebook:YOUR_NAME,twitter:YOUR_NAME,google:YOUR_NAME}> connect </button>
    
@@ -33,9 +33,9 @@ Then use the directive in your page.
 
 **NB: the ng-profile value needs to be an object and not a string containing an object.**
    
-## use the library to share pages.
+## using the library to share pages.
 
-Then use the directive in your page. 
+use the directive in your page. 
   
 	<button ng-share="facebook,twitter,google,pinterest,linkedin"> share </button>
    
