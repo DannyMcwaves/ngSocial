@@ -6,25 +6,23 @@
 
 	<link rel="stylesheet" href="/css/social.min.css">
 
-### If you use the library, you need to load jQuery and bootstrap the angular app first then social.min.js
-### the angular app definition should be app: ie 
+#### If you use the library, you need to load jQuery and bootstrap the angular app first then social.min.js
+#### the angular app definition should be app: ie 
    
-    '''javascript
     var app = angular.module("name-You-Assigned-To-The-ng-app", []);
-    '''
     
 	<script src="/js/social.min.js"></script>
 
 
-#### use the library to list your profiles.
+## use the library to list your profiles.
 
 Then use the directive in your page. 
   
-   <button ng-profile={facebook:YOUR_NAME,twitter:YOUR_NAME,google:YOUR_NAME}>; connect </button>
+	&lt;button ng-profile={facebook:YOUR_NAME,twitter:YOUR_NAME,google:YOUR_NAME}&gt; connect &lt;/button&gt;
    
    or
    
-   <button ng-profile={facebook:YOUR_NAME,twitter: YOUR_NAME,google:YOUR_NAME} animation="launchpadReverse" blur> connect <button>;
+	&lt;button ng-profile={facebook:YOUR_NAME,twitter: YOUR_NAME,google:YOUR_NAME} animation="launchpadReverse" blur="" &gt; connect &lt;/button&gt;
     
     **optional attributes**
     
@@ -35,22 +33,22 @@ Then use the directive in your page.
 
 **NB: the ng-profile value needs to be an object and not a string containing an object.**
    
-#### use the library to share pages.
+## use the library to share pages.
 
 Then use the directive in your page. 
   
-   <button ng-share="facebook,twitter,google,pinterest,linkedin">; share </button>
+	&lt;button ng-share="facebook,twitter,google,pinterest,linkedin"&gt; share &lt;/button&gt;
    
    or
    
-   <button ng-share="facebook,twitter,google,pinterest,linkedin" animation="launchpadReverse" blur> share <button>;
+	&lt;button ng-share="facebook,twitter,google,pinterest,linkedin" animation="launchpadReverse" blur&gt; share &lt;/button&gt;
     
-    **optional attributes**
+    optional attributes
     
-    *the animation is for animation the profiles. the default is launchpad reverse* 
+    the animation is for animation the profiles. the default is launchpad reverse 
     // launchpad, launchpadReverse, slideTop, slideDown, slideLeft, slideRight, chain
     
-    *the blur is used to blur the background on show*
+    the blur is used to blur the background on show
     
 **NB: the ng-share value is a comma-separated string of the social platform names.**    
 	
@@ -69,12 +67,12 @@ Then use the directive in your page.
 
 ## Authors
 
-**Tolga Ergin**
+**Danny Mcwaves**
 
 + http://twitter.com/DannyMcwaves
 + http://dannymcwaves.herokuapp.com
 
-:sparkles:			
+:sparkles: :+1:			
 
 **(c) danny mcwaves**
 
